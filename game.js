@@ -40,7 +40,7 @@ $(".btn").click(function(){
       $("body").removeClass("game-over");
     }, 200);
 
-    $("#level-title").text("Please press enter to play.");
+    $("#level-title").text("Press ENTER to play.");
 
   }
 });
@@ -68,7 +68,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 200);
 
-    $("#level-title").text("Game over. Press enter to try again.");
+    $("#level-title").text("Game over. Press ENTER to try again.");
 
     startOver();
     
